@@ -1,0 +1,13 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
+// customized background image
+.o_menu_apps {
+    user-select: none;
+
+    .dropdown-menu {
+        @include full-screen-dropdown();
+        background: url("../img/randonnee-montagne-tohapi.jpg");
+        background-size: cover;
+        background-position: center;
+
+    }
+}
